@@ -1,0 +1,29 @@
+{
+  "name": "mindsmash-angular-favico",
+  "version": "0.1.0",
+  "authors": [
+    "mindsmash GmbH"
+  ],
+  "description": "A simple AngularJS wrapper for favico.js.",
+  "main": "dist/mindsmash-angular-favico.min.js",
+  "keywords": [
+    "angular",
+    "favico"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mindsmash/mindsmash-angular-favico",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mindsmash/mindsmash-angular-favico.git"
+  },
+  "dependencies": {
+    "favico.js": "0.3.9"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "example"
+  ]
+}
