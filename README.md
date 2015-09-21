@@ -1,4 +1,4 @@
-# mindsmash-angular-uxtable
+# mindsmash-angular-favico
 
 A simple AngularJS wrapper for [favico.js](http://lab.ejci.net/favico.js). Make use of your favicon with badges, images or videos.
 
@@ -20,7 +20,7 @@ A simple AngularJS wrapper for [favico.js](http://lab.ejci.net/favico.js). Make 
    <script src="mindsmash-angular-favico/mindsmash-angular-favico.min.js"></script>
    ```
    
-   3. Add uxTable as a dependency to your app:
+   3. Add favico as a dependency to your app:
    ```
    angular.module('your-app', ['mindsmash.favico']);
    ```
