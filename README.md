@@ -2,6 +2,12 @@
 
 A simple AngularJS wrapper for [favico.js](http://lab.ejci.net/favico.js). Make use of your favicon with badges, images or videos.
 
+### Table of Contents
+
+   - [Installation](#1-installation)
+   - [Configuration](#2-configuration)
+   - [API](#3-api)
+
 ### 1. Installation:
 
    1. Download the [latest release](https://github.com/mindsmash/mindsmash-angular-favico/releases) or the [current master](https://github.com/mindsmash/mindsmash-angular-favico/archive/master.zip) from GitHub. You can also use [Bower](http://bower.io) to install the latest version:
@@ -23,9 +29,31 @@ A simple AngularJS wrapper for [favico.js](http://lab.ejci.net/favico.js). Make 
 
 ### 2. Configuration
 
-Notice that the unicorn provider is injected into the config function.
+You may configure the ```Favicon``` by injecting the ```FaviconProvider``` into the config function.
 
+```
+myApp.config(["FaviconProvider", function(FaviconProvider) {
+  FaviconProvider.setOptions({
+      animation:'fade',
+      bgColor: '#f00',
+   });
+}]);
+```
 
+**[Back to top](#table-of-contents)**
+
+### 3. API
+
+After injecting the ```Favicon``` into your application, it supports the same API as [favico.js](http://lab.ejci.net/favico.js).
+Please see the [favico.js](http://lab.ejci.net/favico.js) documentation for more details.
+
+```
+Favicon.badge(...)
+Favicon.image(...)
+Favicon.video(...)
+Favicon.webcam(...)
+Favicon.reset(...)
+```
 
 **[Back to top](#table-of-contents)**
 
