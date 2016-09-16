@@ -1,6 +1,6 @@
 {
   "name": "mindsmash-angular-favico",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "mindsmash GmbH",
   "description": "A simple AngularJS wrapper for favico.js.",
   "main": "dist/mindsmash-angular-favico.min.js",
